@@ -15,6 +15,7 @@ public class skdjflaksdf {
 			//물고기이름 : 붕어, 가물치, 잉어
 			//포유류 이름 : 호랑이, 사자
 			String [] arr2 = new String [] {"사람 이름 : ", "새 이름 : ", "물고기 이름 : ", "포유류 이름 : "};
+			int c = 0;
 			//1. for문으로 출력
 			System.out.println("====for문으로 출력====");
 			for (int a=0;a<arr1.length;a++) {
@@ -31,12 +32,10 @@ public class skdjflaksdf {
 			//2. Enhanced for문 출력
 			System.out.println("=====Enhanced For문으로 출력====");
 			for(String a[] : arr1) {
+				System.out.print(arr2[c]);
+				c++;
 				for(String b : a) {
-					if (b.equals("홍길동")) {System.out.print("사람이름 : ");}
-					if (b.equals("독수리")) {System.out.print("새 이름 : ");}
-					if (b.equals("붕어")) {System.out.print("물고기 이름 : ");}
-					if (b.equals("호랑이")) {System.out.print("포유류 이름 : ");}
-				
+
 					System.out.print(b + " ");
 				}
 				System.out.println();
