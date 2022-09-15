@@ -1,6 +1,6 @@
 package Chapter07EX04;
 
-class Person{
+class Person_persons{
         // class : 객체를 생성하기 위한 틀, 붕어빵기계, 설계도
 	    // Object(객체, 인스턴스) : 붕어빵, 건축물 <== 인스턴스화()
 	
